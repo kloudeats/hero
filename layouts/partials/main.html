@@ -1,0 +1,12 @@
+<div class="landing-section" id="home">
+    <div class="resto-details">
+      <p class="resto-name">{{ .Site.Data.data.home.nameRestaurent}}</p>
+      <p class="resto-sub">{{ .Site.Data.data.home.subHeadLine }}</p>
+      <button class="order-online-btn" onclick="navigate('/menu')">
+        {{ .Site.Data.data.home.ordernowBtn }}
+      </button>
+    </div>
+    <div class="landing-img">
+      <img src="{{ .Site.Data.data.home.img }}" alt="landing-img" />
+    </div>
+  </div>
